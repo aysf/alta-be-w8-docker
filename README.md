@@ -50,3 +50,11 @@ docker container rm [namaContainer]
 ## Melihat container
 
 ### `docker container ls --all`
+
+
+## Push image to Dockerhub
+
+```sh
+docker tag local-images:tagname reponame:tagname
+git push reponame:tagname
+```
