@@ -1,0 +1,26 @@
+version: "3.9" # optional since v1.27.0
+services:
+  backend:
+    build: .
+    container_name: latihan1
+    image: goapps:1.7
+    ports:
+      - 8080:8080
+    depends_on:
+      - mysql
+    env_file:
+      - ./.env
+    networks:
+      - go_app_network
+  database:
+    container_name: mysql
+    image: mysql:5.7.35
+    ports:
+      - 3307:3306
+    env_file:
+      - ./.env
+    networks:
+      - go_app_network
+networks:
+  go_app_network:
+    name: go_app_network
