@@ -56,5 +56,5 @@ docker container rm [namaContainer]
 
 ```sh
 docker tag local-images:tagname reponame:tagname
-git push reponame:tagname
+docker push reponame:tagname
 ```
