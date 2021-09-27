@@ -1,6 +1,6 @@
 # Learning Docker
 
-![image]
+![image](https://github.com/aysf/alta-be-w8-docker/blob/main/ss_vscode.PNG)
 
 ## Mengecek image yang terdapat pada docker
 
