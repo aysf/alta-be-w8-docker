@@ -34,15 +34,19 @@ docker build --tag GoApps:1.0 .
 
 ### `docker image rm [REPOSITORY]:[TAG]`
 
-example
+contoh
 
 ```sh
 docker image rm alta-api-docker:1.0
 ```
 
-penting ! Jika terdapat container yang masih menjalankan atau menggunakan image tersebut, maka container harus distop dan dihapus terlebih dahulu. example:
+penting ! Jika terdapat container yang masih menjalankan atau menggunakan image tersebut, maka container harus distop dan dihapus terlebih dahulu. contoh:
 
 ```sh
 docker container stop [namaContainer]
 docker container rm [namaContainer]
 ```
+
+## Melihat container
+
+### `docker container ls --all`
