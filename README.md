@@ -10,7 +10,7 @@ terdapat dua pendekatan untuk membuat image di local PC,
 
 ### 1. Mengambil dari registry (docker hub)
 
-#### `docker pull [REPOSITORY]:[TAG]`
+#### `docker pull [reponame]:[tagname]`
 
 contoh
 
@@ -22,7 +22,7 @@ jika tag tidak disebutkan, maka docker akan mengambil versi terbaru
 
 ### 2. Menggunakan Dockerfile
 
-#### `docker build --tag [REPOSITORY]:[TAG] path/to/dockerfile`
+#### `docker build --tag [reponame]:[tagname] path/to/dockerfile`
 
 contoh
 
@@ -32,7 +32,7 @@ docker build --tag GoApps:1.0 .
 
 ## Menghapus image
 
-### `docker image rm [REPOSITORY]:[TAG]`
+### `docker image rm [reponame]:[tagname]`
 
 contoh
 
