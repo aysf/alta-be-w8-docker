@@ -18,7 +18,7 @@ services:
     ports:
       - 3307:3306
     env_file:
-      - ./.env
+      - ./var.env
     networks:
       - go_app_network
 networks:
