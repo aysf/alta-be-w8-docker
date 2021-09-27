@@ -51,10 +51,21 @@ docker container rm [namaContainer]
 
 ### `docker container ls --all`
 
-
 ## Push image to Dockerhub
 
 ```sh
 docker tag local-images:tagname reponame:tagname
 docker push reponame:tagname
+```
+
+## .env file sample
+
+```sh
+NAME=wicaksono
+DB_USERNAME=root
+DB_PASS=secret
+DB_HOST=host.docker.internal
+DB_PORT=3307
+DB_NAME=dockerdb
+MYSQL_ROOT_PASSWORD=secret
 ```
