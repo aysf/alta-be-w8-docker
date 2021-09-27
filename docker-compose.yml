@@ -9,7 +9,7 @@ services:
     depends_on:
       - mysql
     env_file:
-      - ./.env
+      - ./var.env
     networks:
       - go_app_network
   database:
