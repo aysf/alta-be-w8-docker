@@ -24,3 +24,5 @@ services:
 networks:
   go_app_network:
     name: go_app_network
+
+    # mysql     | 2021-09-27T02:04:17.034637Z 1 [Warning] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.

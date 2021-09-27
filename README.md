@@ -1,5 +1,7 @@
 # Learning Docker
 
+![image]
+
 ## Mengecek image yang terdapat pada docker
 
 #### `docker images`
